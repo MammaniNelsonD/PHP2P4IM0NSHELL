@@ -1,0 +1,171 @@
+[Wed Nov  4 13:31:08 2026] PHP 8.4.12 Development Server (http://127.0.0.1:8099) started
+[Wed Nov  4 13:31:10 2026] 127.0.0.1:57277 Accepted
+[Wed Nov  4 13:31:10 2026] 127.0.0.1:57277 [200]: GET /index.php
+[Wed Nov  4 13:31:10 2026] 127.0.0.1:57277 Closing
+[Wed Nov  4 13:31:10 2026] 127.0.0.1:57278 Accepted
+[Wed Nov  4 13:31:10 2026] 127.0.0.1:57278 [200]: GET /index.php
+[Wed Nov  4 13:31:10 2026] 127.0.0.1:57278 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57279 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57280 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57279 [200]: GET /index.php
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57279 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57280 [200]: GET /index.php
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57280 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57281 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57281 [200]: GET /index.php
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57281 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57282 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57282 [200]: GET /index.php
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57282 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57283 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57284 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57284 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57284 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57283 [200]: POST /index.php
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57283 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57285 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57285 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57285 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57286 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57286 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57286 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57287 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57287 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57287 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57288 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57288 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57288 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57289 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57289 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57289 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57290 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57290 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57290 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57291 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57291 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57291 Closing
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57292 Accepted
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57292 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:11 2026] 127.0.0.1:57292 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57293 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57293 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57293 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57294 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57294 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57294 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57295 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57295 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57295 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57296 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57296 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57296 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57297 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57297 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57297 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57298 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57298 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57298 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57299 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57299 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57299 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57300 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57300 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57300 Closing
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57301 Accepted
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57301 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:12 2026] 127.0.0.1:57301 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57302 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57302 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57302 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57303 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57303 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57303 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57304 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57304 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57304 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57305 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57305 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57305 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57306 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57306 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57306 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57307 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57307 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57307 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57308 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57308 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57308 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57309 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57309 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57309 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57310 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57310 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57310 Closing
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57311 Accepted
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57311 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:13 2026] 127.0.0.1:57311 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57312 Accepted
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57312 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57312 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57313 Accepted
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57313 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=P4IM0N_mw2c2ytb
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57313 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57314 Accepted
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57314 [200]: POST /index.php
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57314 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57315 Accepted
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57315 [200]: POST /index.php
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57315 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57316 Accepted
+[Wed Nov  4 13:31:14 2026] PHP Fatal error:  Allowed memory size of 16777216 bytes exhausted (tried to allocate 6296371 bytes) in Unknown on line 0
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57316 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57317 Accepted
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57317 [200]: POST /index.php
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57317 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57318 Accepted
+[Wed Nov  4 13:31:14 2026] PHP Warning:  Undefined array key "c" in C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284 on line 1
+[Wed Nov  4 13:31:14 2026] PHP Deprecated:  shell_exec(): Passing null to parameter #1 ($command) of type string is deprecated in C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284 on line 1
+[Wed Nov  4 13:31:14 2026] PHP Fatal error:  Uncaught ValueError: shell_exec(): Argument #1 ($command) must not be empty in C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284:1
+Stack trace:
+#0 C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284(1): shell_exec('')
+#1 C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\index.php(8): include('C:\\Users\\d34247...')
+#2 {main}
+  thrown in C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284 on line 1
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57318 [200]: GET /index.php?page=C%3A%2FUsers%2Fd34247034%2FDownloads%2FPHP2P4IM0NSHELL%2Flab%2Fsessions%2Fsess_8d0d0e4dc25eb44c6fb030548f16f284 - Uncaught ValueError: shell_exec(): Argument #1 ($command) must not be empty in C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284:1
+Stack trace:
+#0 C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284(1): shell_exec('')
+#1 C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\index.php(8): include('C:\\Users\\d34247...')
+#2 {main}
+  thrown in C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\sessions\sess_8d0d0e4dc25eb44c6fb030548f16f284 on line 1
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57318 Closing
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57319 Accepted
+[Wed Nov  4 13:31:14 2026] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\Users\d34247034\Downloads\PHP2P4IM0NSHELL\lab\index.php on line 11
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57319 [200]: GET /index.php?page=C%3A%2FUsers%2Fd34247034%2FDownloads%2FPHP2P4IM0NSHELL%2Flab%2Fsessions%2Fsess_8d0d0e4dc25eb44c6fb030548f16f284&c=whoami
+[Wed Nov  4 13:31:14 2026] 127.0.0.1:57319 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62144 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62144 [200]: GET /index.php
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62144 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62145 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62145 [200]: POST /index.php
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62145 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62146 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62146 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=PROBE59
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62146 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62147 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62147 [200]: GET /index.php
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62147 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62148 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62148 [200]: POST /index.php
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62148 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62149 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62149 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=PROBE44
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62149 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62150 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62150 [200]: GET /index.php
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62150 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62151 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62151 [200]: POST /index.php
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62151 Closing
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62152 Accepted
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62152 [200]: GET /index.php?PHP_SESSION_UPLOAD_PROGRESS=PROBE32
+[Wed Nov  4 13:32:29 2026] 127.0.0.1:62152 Closing

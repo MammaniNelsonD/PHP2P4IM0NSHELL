@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "PHP2P4IM0NSHELL",
+  "version": "1.2.0",
+  "description": "Framework de auditoria php2shell (CVE-2026-109618 / 109619 / 10961x): pre-flight real, sonda session.upload_progress, escalera OOM y exec via LFI de sesion. Solo laboratorios autorizados.",
+  "minimum_chrome_version": "102",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "cookies"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "PHP2P4IM0NSHELL",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}

